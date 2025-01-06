@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Button } from "./Button";
 export function FormSplitBill({ frind, onSplit }) {
   const { name, balance } = frind;
 
