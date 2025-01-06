@@ -1,3 +1,4 @@
+import { useState } from "react";
 export function FormAddFrind({ onAdd }) {
   const [fNAme, setName] = useState("");
   const [imgSrc, setImg] = useState("https://i.pravatar.cc/48");

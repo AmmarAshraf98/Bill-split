@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export function FormSplitBill({ frind, onSplit }) {
   const { name, balance } = frind;
 
